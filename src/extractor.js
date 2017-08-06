@@ -85,12 +85,16 @@ let getDate = function($) {
 
 let getAuthor = function($) {
     let availableAuthor1 = $('meta[name=\'author\']').attr('content'),
-        availableAuthor2 = $('meta[property=\'author\']').attr('content') || ($('meta[property=\'article:author\']').attr('content'))?$('meta[property=\'article:author\']').attr('content').split('/')[3]: '';
+		availableAuthor2 = $('meta[property=\'author\']').attr('content'),
+		availableAuthor3 = ($('meta[property=\'article:author\']').attr('content'))?$('meta[property=\'article:author\']').attr('content').split('/')[3]: '';
     if (availableAuthor1 != '' && availableAuthor1 != undefined && availableAuthor1 != null) {
         return availableAuthor1;
     }
     if (availableAuthor2 != '' && availableAuthor2 != undefined && availableAuthor2 != null) {
         return availableAuthor2;
+	}
+	if (availableAuthor3 != '' && availableAuthor3 != undefined && availableAuthor3 != null) {
+        return availableAuthor3;
     }
     return '';
 };
