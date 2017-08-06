@@ -29,5 +29,13 @@
     "eslint-plugin-node": "^5.1.1",
     "grunt": "^1.0.1",
     "grunt-eslint": "^20.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathvaj1995/artixtractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bharathvaj1995/artixtractor/issues"
+  },
+  "homepage": "https://github.com/bharathvaj1995/artixtractor#readme"
 }
