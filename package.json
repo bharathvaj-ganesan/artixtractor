@@ -1,0 +1,33 @@
+{
+  "name": "artixtractor",
+  "version": "0.0.1",
+  "description": "Extract article from your favorite blog when URL given",
+  "main": "index.js",
+  "scripts": {
+    "run": "grunt run"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "keywords": [
+    "article",
+    "extract",
+    "blog",
+    "content",
+    "parser"
+  ],
+  "author": "bharathvaj",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "tld-extract": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-node": "^5.1.1",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^20.0.0"
+  }
+}

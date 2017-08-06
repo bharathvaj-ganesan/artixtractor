@@ -1,0 +1,155 @@
+{
+  "env": {
+    //remove either of the lines below if you don't need it
+    //enable nodejs environment
+    "node": true,
+    //enable browser environment
+    "browser": false
+  },
+  "plugins": ["node"],
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "globals": {
+    //place settings for globals here, such as
+    //"exampleGlobalVariable": true
+  },
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "no-console": 0,
+    "node/no-unpublished-require": 0,
+    "camelcase": 0,
+    "require-jsdoc":0,
+    "comma-dangle":0,
+    "no-cond-assign": 2, // eslint:recommended // Google style
+    "no-irregular-whitespace": 2, // Google style
+    "no-unexpected-multiline": 2, // Google style
+    "curly": [2, "multi-line"], // Google style
+    "guard-for-in": 2, // Google style
+    "no-alert": 0, // Google style
+    "no-implicit-globals":0, // Google style
+    "no-caller": 2, // Google style
+    "no-eval": 1, // Google style
+    "no-eq-null": 0, // Google style
+    "no-empty-function": 1, // Google style
+    "no-extend-native": 2, // Google style
+    "no-extra-bind": 2,  // Google style
+    "no-invalid-this": 2, // Google style
+    "no-iterator": 1,// Google style
+    "no-magic-numbers":1, // Google style
+    "no-multi-spaces": 2, // Google style
+    "no-multi-str": 2, // Google style
+    "no-new-wrappers": 2, // Google style
+    "no-throw-literal": 2, // eslint:recommended
+    "no-void": 0,  // Google style
+    "no-warning-comments": 0,   // Google style
+    "no-with": 2, // Google style
+    "no-undefined": 0,  // Google style
+    "no-unused-vars": 1, // eslint:recommended // Google style
+    "callback-return": 0,  // Google style
+    "global-require": 0,  // Google style
+    "handle-callback-err": 0,  // Google style
+    "no-mixed-requires": 0,  // Google style
+    "no-new-require": 0,  // Google style
+    "no-path-concat": 0,  // Google style
+    "no-process-env": 0,  // Google style
+    "no-process-exit": 0,  // Google style
+    "no-restricted-modules": 0,  // Google style
+    "no-restricted-properties": 0,  // Google style
+    "no-sync": 0,  // Google style
+    "array-bracket-spacing": [2, "never"],  // Google style
+    "brace-style": 2,      // Google style
+    "comma-spacing": 2,  // Google style
+    "comma-style": 2,  // Google style
+    "computed-property-spacing": 2,  // Google style
+    "eol-last": 2,  // Google style
+    "func-call-spacing": 2,  // Google style
+    "key-spacing": 2,  // Google style
+    "keyword-spacing": 2,  // Google style
+    "linebreak-style": 2, // Google style
+     "max-len": [1, {
+      "code": 150,
+      "tabWidth": 4,
+      "ignoreUrls": true
+    }], // Google style
+	"new-cap": 2,
+	"no-constant-condition": 0, // Google style
+	"no-useless-escape": 1,
+    "no-array-constructor": 2, // Google style
+    "no-mixed-spaces-and-tabs": 2, // eslint:recommended
+    "no-multiple-empty-lines": [2, {"max": 2}], // Google style
+    "rest-spread-spacing": 2, // Google style
+    "no-nested-ternary": 0, // Google style
+    "no-new-object": 2, // Google style
+    "no-trailing-spaces": 2, // Google style
+    "object-curly-spacing": 2, // Google style
+    "padded-blocks": [2, "never"], // Google style
+    "quote-props": [2, "consistent"], // Google style
+    "quotes": [2, "single", {"allowTemplateLiterals": true}], // Google style
+    "require-jsdoc": [0, { // Google style
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      }
+    }],
+    "spaced-comment": [2, "always"],// Google style
+    "space-before-blocks": 2, // Google style
+    "space-before-function-paren": [1, "never"], // Google style
+    "semi-spacing": 2, // Google style
+    "semi": 2, // Google style
+    "constructor-super": 2, // eslint:recommended
+    "generator-star-spacing": [2, "after"], // Google style
+    "arrow-parens": [2, "always"], // Google style
+    "prefer-rest-params": 2, // Google style
+    "prefer-spread": 2, // Google style
+    "no-new-symbol": 2, // eslint:recommended // Google style
+    "yield-star-spacing": [2, "after"]  // Google style
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
