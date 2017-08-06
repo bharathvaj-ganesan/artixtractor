@@ -13,7 +13,7 @@ $ npm install artixtractor --save
 
 ## Usuage
 ```javascript
-const articleParser = require('./index');
+const articleParser = require('artixtractor');
 
 articleParser('https://medium.com/@Aegist/how-to-end-googles-monopoly-5c46ef7db20d')
 .then((result)=>{
