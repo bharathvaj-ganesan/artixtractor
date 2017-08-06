@@ -6,6 +6,8 @@
 
 Extract article/blog from websites like [medium.com, inc42.com,etc]
 
+![Alt text](logo.png?raw=true "Artixtractor")
+
 ## Installation
 ```
 $ npm install artixtractor --save
