@@ -1,6 +1,6 @@
 {
   "name": "artixtractor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Extract article from your favorite blog when URL given",
   "main": "index.js",
   "scripts": {
