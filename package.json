@@ -22,8 +22,7 @@
     "cheerio": "^1.0.0-rc.2",
     "lodash": "^4.17.4",
     "request": "^2.81.0",
-    "request-promise-native": "^1.0.4",
-    "tld-extract": "^1.0.1"
+    "request-promise-native": "^1.0.4"
   },
   "devDependencies": {
     "eslint-plugin-node": "^5.1.1",
